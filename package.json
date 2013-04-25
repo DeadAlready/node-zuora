@@ -1,0 +1,22 @@
+{
+    "author": "Karl Düüna",
+    "name": "zuora",
+    "description": "Zuora API wrapper for Node",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/DeadAlready/node-zuora.git"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "restify":"*"
+    },
+    "devDependencies": {
+
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "private": true
+}
