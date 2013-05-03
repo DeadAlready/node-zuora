@@ -12,7 +12,7 @@ function Zuora(options) {
 
     var client = new Client(options);
 
-    this.catalog = new Catalog({client: client});
+    this.catalog = new Catalog({client: client, ttl: options.catalogTTL});
     this.account = new Account({client: client});
     this.payment = new Payment({client: client});
 }
