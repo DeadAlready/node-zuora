@@ -23,4 +23,4 @@ module.exports.create = function (opts) {
 
 module.exports.currencies = require('./lib/validation/currencies');
 module.exports.states = require('./lib/validation/states');
-module.exports.countries = require('./lib/validation/countries');
+module.exports.countries = require('./lib/validation/countries').countries;
