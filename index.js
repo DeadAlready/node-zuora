@@ -20,3 +20,7 @@ function Zuora(options) {
 module.exports.create = function (opts) {
     return new Zuora(opts);
 };
+
+module.exports.currencies = require('./lib/validation/currencies');
+module.exports.states = require('./lib/validation/states');
+module.exports.countries = require('./lib/validation/countries');
