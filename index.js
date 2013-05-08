@@ -12,9 +12,9 @@ function Zuora(options) {
 
     var client = new Client(options);
 
-    this.catalog = new Catalog({client: client, ttl: options.catalogTTL});
-    this.account = new Account({client: client});
-    this.payment = new Payment({client: client});
+    this.catalog = new Catalog({client: client, validation: options.validation, ttl: options.catalogTTL});
+    this.account = new Account({client: client, validation: options.validation});
+    this.payment = new Payment({client: client, validation: options.validation});
 }
 
 module.exports.create = function (opts) {
@@ -23,4 +23,4 @@ module.exports.create = function (opts) {
 
 module.exports.currencies = require('./lib/validation/currencies');
 module.exports.states = require('./lib/validation/states');
-module.exports.countries = require('./lib/validation/countries').countries;
+module.exports.countries = require('./lib/validation/countries');
