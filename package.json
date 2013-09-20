@@ -3,6 +3,10 @@
     "name": "zuora",
     "description": "Zuora API wrapper for Node",
     "version": "0.1.0",
+    "keywords": [
+        "zuora",
+        "rest"
+    ],
     "repository": {
         "type": "git",
         "url": "git@github.com/DeadAlready/node-zuora.git"
@@ -12,12 +16,10 @@
         "restify":"*",
         "validator": "*"
     },
-    "devDependencies": {
-
-    },
+    "devDependencies": {},
     "optionalDependencies": {},
     "engines": {
         "node": ">=0.10.0"
     },
-    "private": true
+    "private": false
 }
