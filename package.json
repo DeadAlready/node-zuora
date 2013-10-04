@@ -2,7 +2,7 @@
     "author": "Karl Düüna",
     "name": "zuora",
     "description": "Zuora API wrapper for Node",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "keywords": [
         "zuora",
         "rest"
