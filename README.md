@@ -22,6 +22,8 @@ The following options are available:
 + log: *Bunyan logger
 + catalogTTL: *Time to live for the internal catalog cache
 + validation: *Options for the validation
++ url: *The zuora endpoint url
++ production: *If url is not provided then this flag will determine whether api or apisandbox-api.zuora.com will be used
 
 ## Methods
 
