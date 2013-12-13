@@ -61,7 +61,7 @@ http://knowledgecenter.zuora.com/D_Zuora_APIs/REST_API/B_REST_API_reference
 ## License
 
 The MIT License (MIT)
-Copyright (c) 2012 Karl Düüna
+Copyright (c) 2013 Joyent, Inc., All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
