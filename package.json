@@ -2,7 +2,7 @@
     "author": "Karl Düüna",
     "name": "zuora",
     "description": "Zuora API wrapper for Node",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "keywords": [
         "zuora",
         "rest"
@@ -14,7 +14,7 @@
     "main": "index.js",
     "dependencies": {
         "restify":"*",
-        "validator": "*"
+        "validator": "2.0.0"
     },
     "devDependencies": {},
     "optionalDependencies": {},
