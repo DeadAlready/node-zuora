@@ -1,15 +1,15 @@
 {
     "author": "Karl Düüna",
-    "name": "zuora",
+    "name": "zuora-rest",
     "description": "Zuora API wrapper for Node",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "keywords": [
         "zuora",
         "rest"
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com/DeadAlready/node-zuora.git"
+        "url": "git@github.com/joyent/node-zuora-rest.git"
     },
     "main": "index.js",
     "dependencies": {
